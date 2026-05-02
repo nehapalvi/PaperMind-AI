@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PaperMind AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    
+<body class="bg-image"></body>
+
+<div class="layout">
+
+    <!-- LEFT MAIN CARD -->
+    <div class="chat-card">
+
+        <div class="header">
+            <h1>📄 PaperMind AI</h1>
+            <p>AI that reads & explains research papers</p>
+        </div>
+
+        <!-- CHAT WINDOW -->
+        <div class="chat-window" id="chatBox">
+            <!-- Messages will appear here -->
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+
+            <div class="upload-row">
+                <input type="file" id="pdfUpload" hidden>
+                <button class="upload-btn" onclick="document.getElementById('pdfUpload').click()">
+                    Upload PDF
+                </button>
+                <button class="upload-btn secondary" onclick="uploadPDF()">
+                    Process
+                </button>
+
+                <select id="level">
+                    <option value="10 year old">10 Year Old</option>
+                    <option value="college student">College Student</option>
+                    <option value="researcher">Researcher</option>
+                </select>
+            </div>
+
+            <div class="input-row">
+                <input type="text" id="question" placeholder="Ask about the paper...">
+                <button class="send-btn" onclick="sendMessage()">➤</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

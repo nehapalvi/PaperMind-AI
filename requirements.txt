@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymupdf
+faiss-cpu
+sentence-transformers
+google-generativeai
+python-multipart
+rank-bm25
+numpy
+
+To Run the project give this command:  uvicorn main:app --reload
