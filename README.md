@@ -1,38 +1,105 @@
-# How I Built an AI That Explains Any Research Paper 🔥 | RAG + Machine Learning Project
+# 📄 PaperMind AI
 
-<img width="1918" height="996" alt="Screenshot 2026-05-02 191411" src="https://github.com/user-attachments/assets/833056fd-1b65-45d7-9c4b-1d6e147477c8" />
+AI-powered Research Paper Summarizer built using FastAPI and Google Gemini AI.
 
-💡 Ever wondered if Artificial Intelligence can actually read and explain research papers for you? 🤯📄
+---
 
-In this video, I’ll show you how I built a Research Paper Explainer AI using RAG (Retrieval-Augmented Generation), Machine Learning, FAISS, BM25, and LLMs—a complete end-to-end AI system that turns complex research papers into simple explanations. 🚀
+## 🚀 Features
 
-<img width="1280" height="720" alt="SQL_Thumbnail (99)" src="https://github.com/user-attachments/assets/b2058162-517b-4d3e-b818-fe23fbe5113e" />
+- Upload research papers in PDF format
+- Generate AI-powered summaries
+- Ask questions about the uploaded paper
+- Simple and interactive chat interface
+- Fast and responsive web application
 
-Youtube Link :  https://youtu.be/E-D9x-DUPVM?si=-69VtHk3LUCjMWbo
+---
 
-We’ll go step by step:
-✅ Uploading and processing research papers (PDF parsing)
-✅ Breaking documents into meaningful chunks
-✅ Converting text into embeddings using Sentence Transformers
-✅ Building hybrid search using FAISS (semantic search) + BM25 (keyword search)
-✅ Retrieving the most relevant context from the paper
-✅ Using RAG to feed context into an LLM
-✅ Generating structured, easy-to-understand answers 🤖
-✅ Supporting different explanation levels (beginner to expert)
+## 🛠 Tech Stack
 
-This is a full End-to-End Machine Learning + NLP Project—perfect for students, researchers, or anyone building a strong AI portfolio with real-world applications. 📚✨
+- Python
+- FastAPI
+- HTML
+- CSS
+- JavaScript
+- Google Gemini API
+- Uvicorn
 
-✨ By the end, you’ll learn how to:
-• Build a document understanding AI system
-• Combine semantic + keyword search (Hybrid Retrieval)
-• Implement RAG-based question answering
-• Work with FAISS, BM25, and embeddings
-• Turn research papers into interactive AI explanations
+---
 
-📌 Technologies Used: Python, FastAPI, Sentence Transformers, FAISS, BM25, OpenAI/Groq LLMs, NLP, Machine Learning
+## 📂 Project Structure
 
-💬 If you’re starting in AI/ML, this project shows how to go from raw PDFs → intelligent AI system that actually understands documents.
+```
+PaperMind-AI/
+│── assets/
+│── static/
+│── templates/
+│── uploads/
+│── utils/
+│── main.py
+│── requirements.txt
+│── README.md
+```
 
-🔔 Subscribe for more AI, ML, and Python projects: @SouvikChai
+---
 
-📢 Share this project with friends who love Computer Vision & AI!
+## ⚙ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/nehapalvi/PaperMind-AI.git
+```
+
+Go inside the project
+
+```bash
+cd PaperMind-AI
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python -m uvicorn main:app --reload
+```
+
+Open
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+## 📸 Screenshot
+
+![PaperMind AI Homepage](images/homepage.png)
+
+---
+
+## 👩‍💻 Developed By
+
+**Neha Palvi**
+
+Computer Engineering Student
+
+Shah & Anchor Kutchhi Engineering College
+
+GitHub: https://github.com/nehapalvi
