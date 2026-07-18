@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+*.sqlite3
+*.log
+*.pkl
+*.keras
+*.h5
+.pytest_cache/
+.vscode/
+.idea/
+models/
+*.bin
+*.pt
